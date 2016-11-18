@@ -1,4 +1,4 @@
----
+<!---
 layout: none
 ---
 <?xml version="1.0" encoding="UTF-8"?>
@@ -19,3 +19,4 @@ layout: none
 		{% endfor %}
 	</channel>
 </rss>
+-->

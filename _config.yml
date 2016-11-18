@@ -18,7 +18,7 @@ favicon: img/favicon.ico
 
 twitter_username: tom0li  
 github_username: tom0li  
-facebook_username: Azeril_Lapland  
+#facebook_username: 
 weibo_username:  朦胧言语-3216 
 zhihu_username: tom0li  
 
@@ -54,13 +54,11 @@ defaults:
       author: "tom0li"
       header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
 
-
 # Comments 
-comments :
-  provider : duoshuo
-  disqus :
-      short_name : Azeril
-
+#comments :
+#  provider : duoshuo
+#  disqus :
+#      short_name : Azeril
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-66863061-1
 google_verify:
