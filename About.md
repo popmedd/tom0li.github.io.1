@@ -13,7 +13,7 @@ Ehhhh...I know it's not a good question.
 
 My Name is tom0li. You may find me in sites like Facebook / Instagram / Twitter / Weibo.com, so on and so forth. It’s easy to know me. My short name is tom, quite easy to remember, right?
 
-喜欢折腾的技术宅。一点点 geek，white hat hacker 一丢丢的执著，就像逐鹿。日常之中，多的是折腾劲，也希望能添几分专注、几许勇敢。这就是我。
+喜欢折腾的技术宅。一点点 geek，white hat hacker, 一丢丢的执著，就像逐鹿。日常之中，多的是折腾劲，也希望能添几分专注、几许勇敢。这就是我。
 
 ——tom0li
 
