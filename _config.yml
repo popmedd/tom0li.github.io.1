@@ -16,11 +16,11 @@ owner:
 gavatar: http://dreamofbook.qiniudn.com/Az..png
 favicon: img/favicon.ico
 
-twitter_username: tom0li  
+twitter_username: 1277217993l  
 github_username: tom0li  
 #facebook_username: 
 weibo_username:  朦胧言语-3216 
-zhihu_username: tom0li  
+zhihu_username: shi-zhi-4-51
 
 # Build settings  
 # use Github Flavored Markdown !important  
@@ -39,10 +39,7 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: Asia/Shanghai
-
 # Title
-
-
 # Defaults for posts
 defaults:
   -
@@ -53,7 +50,6 @@ defaults:
       layout: "post"
       author: "tom0li"
       header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
-
 # Comments 
 #comments :
 #  provider : duoshuo
