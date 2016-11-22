@@ -1,55 +1,52 @@
 ---
-layout: page
-description: "看不到没有好处的事"
+layout: landing
 ---
+  <h1 class="l-title">Web security
+    <div class="aggettivi">
+        <div class="text-animated-one">sql injuction</div>
+        <div class="text-animated-two">CSRF</div>
+    </div>
+  </h1>
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-        <div class="post-content-preview">
-            {{ post.content | strip_html | truncate:150 }}
-        </div>
-    </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+
+<div class="my-img"></div>
+
+<nav role="navigation">
+  <ul>
+    {% for page in site.pages %}
+    <!-- Compare the page title to the URL -->
+
+      {% assign current = page.title | downcase %}
+
+      {% if page.title %}
+      <li class="nav__item">
+        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      </li>
+      {% endif %}
+
+    {% endfor %}
+  </ul>
+</nav>
+
+<div class="l-social-wrap">
+    <ul class="social-icons text-center">
+      <li><a href="https://twitter.com/1277217993l"><i class="fa fa-twitter twitter" aria-hidden="true"></i></a></li>
+      <li><a href="https://github.com/tom0li"><i class="fa fa-github github" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/稳-沉-417a93126?trk=nav_responsive_tab_profile"><i class="fa fa-linkedin linkedin" aria-hidden="true"></i></a></li>
+    </ul>
 </div>
 
-<hr>
-{% endfor %}
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
+<!-- Scripts -->
 
+  <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-82392274-1', 'auto');
+        ga('send', 'pageview');
 
-  ga('create', 'UA-66863061-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-
-{% endif %}
+    </script>

@@ -1,64 +1,33 @@
 # Site settings
-title: tom0li
-header-img: "img/autumn2.jpg"
-tagline: "朦胧烟雨"  
-description: "看不到没有好处的事"  
-baseurl: ""
-url: "https://github.com/tom0li/"  
+title: tom0li - Personal website
+email: 1277217993l@gmail.com
+description: I'm tom0li. I am Web security sql injuction. I'm always availible for freelance work. Contact me!
+url: "https://tom0li.github.io" # the base hostname & protocol for your site
+twitter_username: 1277217993l
 
-# About/contact
-owner: 
-  name: "tom0li"
-  email: 1277217993l@gmail.com
-  bio: "长风破浪"
 
-# Data
-gavatar: https://raw.githubusercontent.com/tom0li/tom0li.github.io/master/img/1.ico
-favicon: img/1.ico
-
-twitter_username: 1277217993l  
-github_username: tom0li  
-#facebook_username: 
-weibo_username:  朦胧言语-3216 
-zhihu_username: shi-zhi-4-51
-
-# Build settings  
-# use Github Flavored Markdown !important  
-# document: http://jekyllrb.com/docs/configuration/#kramdown  
+# Build settings
 markdown: kramdown
-kramdown:
-  input: GFM
-highlighter: rouge
+permalink: pretty
 
-gems: 
-- jekyll-gallery-generator
-- jekyll-paginate
-permalink: none
-paginate: 8
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Shanghai
-# Title
-# Defaults for posts
+# Default settings
 defaults:
   -
-    scope: 
-      path: ""
-      type: "posts"
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
     values:
+      author: tom0li
       layout: "post"
-      author: "tom0li"
-      header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
-# Comments 
-#comments :
-#  provider : duoshuo
-#  disqus :
-#      short_name : Azeril
-# Analytics and webmaster tools stuff goes here
-google_analytics: UA-66863061-1
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+      comments: true
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "page"
 
-# Links to include in footer navigation
+# Gems
+gems: [jekyll-paginate]
+paginate: 3
+paginate_path: "/blog/page/:num"
