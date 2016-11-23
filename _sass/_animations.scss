@@ -1,19 +1,25 @@
 @-webkit-keyframes fade-in {
   0% {
       opacity: 0;
-      -webkit-transform: translateY(-40px);
-      transform: translateY(-40px);
+      -webkit-transform: translateY(-80px);
+      -ms-transform: translateY(-80px); /* Internet Explorer */
+      -moz-transform: translateY(-80px); /* Firefox */
+      transform: translateY(-80px);
   }
 
   50% {
       opacity: 1;
-      -webkit-transform: translateY(0px);
-      transform: translateY(0px);
+      -webkit-transform: translateY(-40px);
+      -ms-transform: translateY(-40px); /* Internet Explorer */
+      -moz-transform: translateY(-40px); /* Firefox */
+      transform: translateY(-40px);
   }
 
   100% {
-    -webkit-transform: translateY(60px);
-    transform: translateY(60px);
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px); /* Internet Explorer */
+    -moz-transform: translateY(0px); /* Firefox */
+    transform: translateY(0px);
       opacity: 0;
   }
 }
@@ -21,7 +27,7 @@
     display:inline;
     overflow: hidden;
     position:absolute;
-    left: 15px;
+    left: 60px;
     -webkit-animation:fade-in 3s infinite;
     color: $orange;
 }
@@ -30,7 +36,7 @@
     overflow: hidden;
     display:inline;
     position:absolute;
-    left: 15px;
+    left: 60px;
     -webkit-animation: fade-in 3s infinite;
     -webkit-animation-delay: 1.5s;
     color: $blue-light;
