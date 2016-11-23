@@ -12,7 +12,7 @@ M1 卡有从 0 到 15 共 16 个扇区，每个扇区配备了从 0 到 3 共 4 
 
 ## 0x02数据分析
 
-![M1 card](tom0li.github.io/images/M1.PNG)
+![M1 card](https://raw.githubusercontent.com/tom0li/tom0li.github.io/master/images/M1.PNG)
 
 通过对比(上为3元，下为13元)  
 2C 01为余额，14 05为余额.  
