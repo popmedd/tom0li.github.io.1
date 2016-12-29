@@ -5,7 +5,7 @@ categories: [blog ]
 tags: [USB, ]
 description: 插入U盘记录(tip)
 ---
-## windows注册表验证USB设备的插入
+### windows注册表验证USB设备的插入
 下面我们将演示下如何找到设备的信息：
 
 1. 同时按下WIN+R键，也就是打开“运行”。
