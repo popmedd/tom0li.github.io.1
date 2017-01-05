@@ -31,13 +31,14 @@ header-img: "img/autumn.jpg"
 
 [microsoft](https://gallery.technet.microsoft.com/site/search)
 
-[kitploit]http://www.kitploit.com/?m=1
+[kitploit](http://www.kitploit.com/?m=1)
 
 [meitu 去水印][http://xiuxiu.web.meitu.com/]
 
 [网盘搜索](http://www.fastsoso.cn/)
 
 [foreign ku](https://www.leakedsource.com/)
+
 ### Rule 
 
 [W3C Editor's Draft](http://w3c.github.io/clreq/#glyphs_sizes_and_positions_in_character_faces_of_punctuation_marks) 中文排版  

@@ -1,6 +1,6 @@
 # Site settings
 title: tom0li
-header-img: "img/birds.jpg"
+header-img: "img/mountain.jpg"
 tagline: "朦胧烟雨"  
 description: "看不到没有好处的事"  
 baseurl: ""
@@ -13,8 +13,8 @@ owner:
   bio: "长风破浪"
 
 # Data
-gavatar: https://raw.githubusercontent.com/tom0li/tom0li.github.io/master/img/1.ico
-favicon: img/1.ico
+gavatar: https://raw.githubusercontent.com/tom0li/tom0li.github.io/master/img/favicon.ico
+favicon: img/favicon.ico
 
 twitter_username: 1277217993l  
 github_username: tom0li  
