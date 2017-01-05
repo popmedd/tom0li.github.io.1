@@ -28,6 +28,6 @@ defaults:
       layout: "page"
 
 # Gems
-gems: [jekyll-paginate]
-paginate: 3
-paginate_path: "/blog/page/:num"
+#gems: [jekyll-paginate]
+#paginate: 3
+#paginate_path: "/blog/page/:num"
