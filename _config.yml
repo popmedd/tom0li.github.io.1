@@ -1,6 +1,6 @@
 # Site settings
 title: tom0li
-header-img: "img/autumn2.jpg"
+header-img: "img/birds.jpg"
 tagline: "朦胧烟雨"  
 description: "看不到没有好处的事"  
 baseurl: ""
@@ -54,11 +54,11 @@ defaults:
 #comments :
 #  provider : duoshuo
 #  disqus :
-#      short_name : Azeril
+#      short_name : tom0li
 # Analytics and webmaster tools stuff goes here
-google_analytics: UA-66863061-1
+google_analytics: UA-89858019-1
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+#bing_verify:
 
 # Links to include in footer navigation

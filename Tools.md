@@ -1,11 +1,43 @@
 ---
 layout: page
 title: "Tools"
-description: "我的小小工具箱"
+description: "我的小工具箱"
 header-img: "img/autumn.jpg"
 ---
 
+### sectools 
 
+[恶意软件分析](https://www.virustotal.com/)
+
+[站长之家](http://tool.chinaz.com/)
+
+[钟馗之眼](https://www.zoomeye.org/#)
+
+[shodan](https://www.shodan.io/)
+
+[dns](https://dnsdb.io/)
+
+[whois](https://who.is/)
+
+[md5](http://www.cmd5.com/)
+
+[foreign tools](http://carnal0wnage.attackresearch.com/?m=1)
+
+[wintools](http://www.kitploit.com/search/label/Windows?m=1)
+
+[certificate](https://crt.sh/?)
+
+[国内交易数据](https://www.secsilo.com/)
+
+[microsoft](https://gallery.technet.microsoft.com/site/search)
+
+[kitploit]http://www.kitploit.com/?m=1
+
+[meitu 去水印][http://xiuxiu.web.meitu.com/]
+
+[网盘搜索](http://www.fastsoso.cn/)
+
+[foreign ku](https://www.leakedsource.com/)
 ### Rule 
 
 [W3C Editor's Draft](http://w3c.github.io/clreq/#glyphs_sizes_and_positions_in_character_faces_of_punctuation_marks) 中文排版  
