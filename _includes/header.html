@@ -20,7 +20,7 @@
         {% assign current = page.title | downcase %}
 
         {% if page.title %}
-        <li {% if location == current %} class="nav__item--active" {% else %} class="nav__item" {% endif %}
+        <li {% if location == current %} class="nav__item--active"  {% endif %}
         >
           <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
         </li>
@@ -32,3 +32,4 @@
 
 
 </header>
+<!--{% else %} class="nav__item" -->
