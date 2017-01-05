@@ -33,7 +33,7 @@ header-img: "img/autumn.jpg"
 
 [kitploit](http://www.kitploit.com/?m=1)
 
-[meitu 去水印][http://xiuxiu.web.meitu.com/]
+[meitu 去水印](http://xiuxiu.web.meitu.com/)
 
 [网盘搜索](http://www.fastsoso.cn/)
 
