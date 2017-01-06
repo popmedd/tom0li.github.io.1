@@ -4,7 +4,7 @@ header-img: "img/mountain.jpg"
 tagline: "朦胧烟雨"  
 description: "看不到没有好处的事"  
 baseurl: ""
-url: "https://github.com/tom0li/"  
+url: "https://tom0li.github.io/"  
 
 # About/contact
 owner: 
@@ -43,7 +43,7 @@ timezone: Asia/Shanghai
 # Defaults for posts
 defaults:
   -
-    scope: 
+    scope:  
       path: ""
       type: "posts"
     values:
