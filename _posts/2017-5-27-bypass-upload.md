@@ -5,7 +5,7 @@ categories: [blog ]
 tags: [Web安全, ]
 ---
 
-### 常见绕过姿势
+## 常见绕过姿势
 * 客户端绕过(burp 改包)
 * Boundary边界
 
@@ -20,6 +20,7 @@ tags: [Web安全, ]
 * CMS，编辑器漏洞
 * 操作系统文件名规则
 * WAF
+
 ## 服务端绕过
 ### MIME
 ```
