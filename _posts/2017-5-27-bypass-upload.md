@@ -7,7 +7,7 @@ tags: [Web安全, ]
 
 ## 常见绕过姿势
 * 客户端绕过(burp 改包)
-* Boundary边界
+* Boundary边界(不一致）
 
 * 服务端
 	* 文件类型MIME(检测Content-Type)
@@ -36,7 +36,9 @@ Conent-Type: image/gif (原为Content-Type: text/plain)
 	htm|html|shtml|pwml|phtml|phtm|js|jsp
 	vbs|asis|sh|reg|cgi|exe|dll|com|bat|pl|cfc|cfm|ini
 
-* 文件名大小写
+* 文件后缀大小写
+* 后缀pphphp 过滤前一个php后剩下第一个字符p与最后hp组合
+* 后缀加空格
 * 名单绕过 例如：
 	* asa和cer aspx
 	* exe和exee
@@ -45,7 +47,9 @@ Conent-Type: image/gif (原为Content-Type: text/plain)
 
 ### 文件绕过
 在木马内容基础上再加了一些文件信息，有点像下面的结构  
-GIF89a<?php phpinfo(); ?>
+GIF89a<?php phpinfo(); ?>  
+
+图片马
 
 ## 解析漏洞
 ### IIS5.x-6.x
@@ -113,6 +117,12 @@ SetHandler application/x-httpd-php </FilesMatch>
 
 linux下后缀名大小写  
 在linux下，如果上传php不被解析，可以试试上传pHp后缀的文件名。
+
+## WAF
+
+删除Conten-Type  
+删除Content-Disposion字段的空格  
+修改Content-Dispositon字段值大小写
 
 #### 参考
 		
