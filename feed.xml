@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
@@ -27,4 +28,25 @@ layout: null
       </item>
     {% endfor %}
   </channel>
+=======
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>{{ site.title }}</title>
+		<description>{{ site.description }}</description>
+		<link>{{ site.BASE_PATH }}/</link>
+		<atom:link href="{{ site.url}}/feed.xml" rel="self" type="application/rss+xml" />
+		{% for post in site.posts limit:10 %}
+			<item>
+				<title>{{ post.title }}</title>
+				<description>{{ post.content | xml_escape }}</description>
+				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+				<link>{{ site.BASE_PATH }}{{ post.url }}</link>
+				<guid isPermaLink="true">{{ site.BASE_PATH }}{{ post.url }}</guid>
+			</item>
+		{% endfor %}
+	</channel>
+>>>>>>> 72d91c012829d0ab0689327d62ea6abdea978041
 </rss>
