@@ -2,11 +2,8 @@
 layout: post
 title: 发现是否有人用USB偷插你的电脑
 categories: [blog ]
-<<<<<<< HEAD
 tags: [USB, ]
-=======
 tags: [usb, ]
->>>>>>> 72d91c012829d0ab0689327d62ea6abdea978041
 description: 插入U盘记录(tip)
 ---
 ### windows注册表验证USB设备的插入

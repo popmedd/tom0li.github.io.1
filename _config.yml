@@ -1,10 +1,9 @@
 # Site settings
-
-title: tom0li - Personal website
+# About/contact
+owner: 
+name: "tom0li"
 email: 1277217993l@gmail.com
-description: I'm tom0li. I am Web security sql injuction. I'm always availible for freelance work. Contact me!
-url: "https://tom0li.github.io" # the base hostname & protocol for your site
-twitter_username: 1277217993l
+bio: "长风破浪"
 
 title: tom0li
 header-img: "img/mountain.jpg"
@@ -12,8 +11,6 @@ tagline: "朦胧烟雨"
 description: "看不到没有好处的事"  
 baseurl: ""
 url: "https://tom0li.github.io/"  
-
-# Build settings
 
 # Data
 gavatar: https://raw.githubusercontent.com/tom0li/tom0li.github.io/master/img/favicon.ico
@@ -30,30 +27,21 @@ zhihu_username: shi-zhi-4-51
 # document: http://jekyllrb.com/docs/configuration/#kramdown  
 
 markdown: kramdown
-permalink: pretty
+kramdown:
+  input: GFM
+highlighter: rouge
 
-# Default settings
-defaults:
+gems: 
+- jekyll-gallery-generator
+- jekyll-paginate
+permalink: none
+paginate: 8
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
-
-    scope:  
-      path: ""
-      type: "posts"
-
-    values:
-      author: tom0li
-      layout: "post"
-
-      comments: true
-
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "pages" # previously `post` in Jekyll 2.2.
-    values:
-      layout: "page"
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
+# Title
+# Defaults for posts
 
       author: "tom0li"
       header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
@@ -65,11 +53,3 @@ defaults:
 # Analytics and webmaster tools stuff goes here
 google_analytics: UA-89858019-1
 google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-#bing_verify:
->>>>>>> 72d91c012829d0ab0689327d62ea6abdea978041
-
-# Gems
-gems: [jekyll-paginate]
-paginate: 5
-paginate_path: "/blog/page/:num"
