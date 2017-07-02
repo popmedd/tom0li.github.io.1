@@ -1,23 +1,20 @@
 # Site settings
-<<<<<<< HEAD
+
 title: tom0li - Personal website
 email: 1277217993l@gmail.com
 description: I'm tom0li. I am Web security sql injuction. I'm always availible for freelance work. Contact me!
 url: "https://tom0li.github.io" # the base hostname & protocol for your site
 twitter_username: 1277217993l
-=======
+
 title: tom0li
 header-img: "img/mountain.jpg"
 tagline: "朦胧烟雨"  
 description: "看不到没有好处的事"  
 baseurl: ""
 url: "https://tom0li.github.io/"  
->>>>>>> 72d91c012829d0ab0689327d62ea6abdea978041
 
-
-<<<<<<< HEAD
 # Build settings
-=======
+
 # Data
 gavatar: https://raw.githubusercontent.com/tom0li/tom0li.github.io/master/img/favicon.ico
 favicon: img/favicon.ico
@@ -31,34 +28,33 @@ zhihu_username: shi-zhi-4-51
 # Build settings  
 # use Github Flavored Markdown !important  
 # document: http://jekyllrb.com/docs/configuration/#kramdown  
->>>>>>> 72d91c012829d0ab0689327d62ea6abdea978041
+
 markdown: kramdown
 permalink: pretty
 
 # Default settings
 defaults:
-  -
-<<<<<<< HEAD
+
     scope:
       path: "" # an empty string here means all files in the project
       type: "posts" # previously `post` in Jekyll 2.2.
-=======
+
     scope:  
       path: ""
       type: "posts"
->>>>>>> 72d91c012829d0ab0689327d62ea6abdea978041
+
     values:
       author: tom0li
       layout: "post"
-<<<<<<< HEAD
+
       comments: true
-  -
+
     scope:
       path: "" # an empty string here means all files in the project
       type: "pages" # previously `post` in Jekyll 2.2.
     values:
       layout: "page"
-=======
+
       author: "tom0li"
       header-img: "img/fantasy.jpg" # We don't want posts without a header image, that whould mean white on white
 # Comments 
