@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: 'Noto Serif', serif;
+	background: #F8F8F8;
+	color: $text-color;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.4;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+}
+
+.bg-fff {
+	background-color: #fff;
+}
+
+h1 {
+	display: block;
+	border-bottom: none !important;
+
+	// typography
+	font-family: 'Noto Sans';
+  font-size: $textSize-xxxl;
+  font-weight: 600;
+}
+h2 {
+  margin-top: 2em;
+  margin-bottom: .5em;
+
+  // typography
+  font-family: 'Noto Sans';
+	font-size: $textSize-xxl;
+  font-weight: 600;
+}
+h3 {
+  margin-top: 2em;
+  margin-bottom: .5em;
+
+  // typography
+  font-family: $sans;
+	font-size: $textSize-xl;
+  font-weight: 600;
+}
+h4 {
+  margin-top: 2em;
+	margin-bottom: .5em;
+
+	// typography
+	color: $black;
+	font-family: $sans;
+	font-size: $textSize-l;
+  font-weight: 600;
+}
+
+a {
+	padding-bottom: 0.085em;
+}
+.container {
+	padding-left: 0.70em;
+	padding-right: 0.70em;
+	max-width: 1024px;
+}
+
+code {
+  font-family: monospace;
+  color: #555;
+  background-color: rgba(0,0,0,0.04);
+  padding: 1px 3px;
+}
+
+@media all and (max-width:760px) {
+  h1 {
+  	font-size: $textSize-xl;
+  }
+  h2 {
+    font-size: $textSize-l;
+  }
+}
