@@ -1,9 +1,8 @@
 ---
-layout: post
 title: wampserver-mysql-修改密码问题
-categories: [blog ]
-tags: [issue, ]
-description: 
+date: 2017-4-2 8:50:30
+tags: issue
+toc: true
 ---
 
 ### 命令行操作

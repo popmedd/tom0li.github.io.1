@@ -1,10 +1,10 @@
 ---
-layout: post
 title: RFID常见种类
-categories: [blog ]
-tags: [RFID, ]
-description: card
+date: 2016-11-12 8:50:30
+tags: RFID
+toc: true
 ---
+
 ## 0x01 低频卡,   主要是指125k或者134kHz的卡片，其实低频卡有id卡和更复杂的卡片.  
 我主要接触的低频卡有以下几种常用的:
 

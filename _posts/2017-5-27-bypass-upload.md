@@ -1,8 +1,8 @@
 ---
-layout: post
 title: 上传绕过
-categories: [blog ]
-tags: [Web安全, ]
+date: 2017-5-27 8:50:30
+tags: Web安全
+toc: true
 ---
 
 ## 常见绕过姿势
@@ -73,6 +73,8 @@ www.sss.com/esf.php.php123 按php解析
 （1）如果在 Apache 的 conf 里有这样一行配置 AddHandler php5-script .php 这时只要文件名里包含.php 即使文件名是 test2.php.jpg 也会以 php 来执行。
 （2）如果在 Apache 的 conf 里有这样一行配置 AddType application/x-httpd-php .jpg 即使扩展名是 jpg，一样能以 php 方式执行。
 
+[利用最新Apache解析漏洞（CVE-2017-15715）绕过上传黑名单](https://www.leavesongs.com/PENETRATION/apache-cve-2017-15715-vulnerability.html)
+
 ### nginx
 	Nginx 0.5.*
 	Nginx 0.6.*
@@ -123,6 +125,9 @@ linux下后缀名大小写
 删除Conten-Type  
 删除Content-Disposion字段的空格  
 修改Content-Dispositon字段值大小写
+
+[上传绕过WAF](http://docs.ioin.in/writeup/www.am0s.com/_jchw_376_html/index.html)
+[文件解析漏洞汇总](https://zhuanlan.zhihu.com/p/25149704)
 
 #### 参考
 		

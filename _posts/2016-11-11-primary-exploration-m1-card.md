@@ -1,9 +1,8 @@
 ---
-layout: post
 title: 初探M1 card
-categories: [blog ]
-tags: [RFID, ]
-description: M1(s50) card
+date: 2016-11-11 8:50:30
+tags: RFID
+toc: true
 ---
 ## 0x01背景知识
 Mifare Classic 提供 1 Kb - 4Kb 的容量，现在国内采用的多数是 Mifare Classic 1k(S50)[后面简称 M1 卡]。
@@ -13,7 +12,7 @@ M1 卡有从 0 到 15 共 16 个扇区，每个扇区配备了从 0 到 3 共 4 
 
 ## 0x02数据分析
 
-![M1 card](https://raw.githubusercontent.com/tom0li/tom0li.github.io/master/images/M1.PNG)
+![M1 card](https://raw.githubusercontent.com/tom0li/tom0li.github.io/master/img/M1.PNG)
 
 通过对比(上为3元，下为13元)  
 2C 01为余额，14 05为余额.  
@@ -126,6 +125,10 @@ A0zzzzzzzzzz
 ## 0x06卡片防护
 
 破解和防护是一对冤家，既然M1卡这么容易被破解，那有没有合适的防护方法呢？上一小节中提到的校验案例就算是一个很小的防护手段，但是依然存在很大被破解的风险。 为了降低水卡和饭卡被破解的风险，同时又不增加替换M1卡的成本，可以完全加密数据字段，基于密钥和算法保密性，保证即使可以通过验证攻击获取到M1卡中的数据，黑客也无法快速判断各个数据字段的意义，从而无法完成余额修改！ 如果所有数据再与一个2字节的密钥进行异或处理，这时就无法简单的通过比对法判断出哪些字节是余额、哪些是消费金额，进一步降低了破解风险。当然针对密钥可以设计一套动态密钥方案，效果类似支付宝令（需要考虑如何处理长期不使用的卡片），而加密算法可以选择更加复杂的对称加密算法，只要保证不会对消费刷卡机造成过大延迟即可。
+
+### 小结
+
+有些可能防护，可使用cuid fuid 卡
 
 ### 参考 
 		freebuf  
